@@ -42,7 +42,7 @@ body, h1, h2, h3, p, ul {
 }
 .nav-link {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   padding: 0.9em;
   margin-right: 0.5em;
   color: white;
@@ -214,11 +214,25 @@ body, h1, h2, h3, p, ul {
     max-width: 95vw;
     max-height: 70vh;
   }
+}
+@media (max-width: 400px) {
   body {
-    font-size: 12px;
+    font-size: 10px;
+  }
+  #nav-bar {
+    display: block;
+    color: green;
+  }
+  #nav-bar ul li {
+    margin: 0 auto 0 auto;
+  }
+  #header-img {
+    padding: 0 0 0 1em;
   }
   .nav-link {
-    font-size: inherit;
+    font-size: 1em;
   }
-
+  #company-name {
+    font-size: 3em;
+  }
 }
