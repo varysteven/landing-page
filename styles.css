@@ -184,7 +184,7 @@ body, h1, h2, h3, p, ul {
 #footer > ul {
   display: flex;
   justify-content: flex-end;
-  padding-right: 20vw;
+  padding-right: 5vw;
   list-style-type: none;
 }
 #footer > ul > li {
@@ -197,7 +197,7 @@ body, h1, h2, h3, p, ul {
 #footer span {
   display: block;
   color: gray;
-  padding: 1em 20vw 1em 1em;
+  padding: 1em 5vw 1em 1em;
 }
 
 /*Mobile Support (Media Queries)*/
@@ -214,4 +214,11 @@ body, h1, h2, h3, p, ul {
     max-width: 95vw;
     max-height: 70vh;
   }
+  body {
+    font-size: 12px;
+  }
+  .nav-link {
+    font-size: inherit;
+  }
+
 }
